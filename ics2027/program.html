@@ -1,0 +1,2665 @@
+<!DOCTYPE html>
+<html lang=" en ">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    
+    
+    Program &bull;
+    
+    ACM International Conference on Supercomputing
+    
+  </title>
+  <meta name="description"
+    content="The ACM International Conference on Supercomputing (ICS) is a premier forum for presenting research in high-performance computing, systems, architectures, ap...">
+  <link rel="icon" type="image/jpeg" href="/assets/images/logo.jpg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/main.css ">
+  <!--<link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css">-->
+  <link rel="stylesheet" href="./assets/font-awesome/css/all.min.css">
+  <link rel=" canonical" href="http://localhost:4000/program.html">
+
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
+
+  
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-xl-1 col-xl-10 offset-xl-1">
+            <header class="site-header">
+    <div class="row">
+        <!--navbar-->
+        <div class="mynav col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 offset-xl-1">
+
+            <nav class="nav navbar-dark bg-dark navbar-expand-lg">
+                
+                <a class="navbar-brand ml-4" href="./" aria-label="ICS 2027 home">
+                    <img class="navbar-logo" src="./assets/images/logo.png" alt="ICS 2027">
+                </a>
+                
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-with-toggle"
+                    aria-controls="navbar-with-toggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-with-toggle">
+                    <ul class="navbar-nav ml-3 my-2 my-lg-0 navbar-nav-scroll" style="max-height: 200px;">
+                        
+                        
+                        <li class="nav-item">
+                            
+                            
+                            <a class="nav-link m-1" href="./">
+                                <strong>Home</strong>
+                            </a>
+                            
+                            
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="nav-item">
+                            
+                            
+                            <a class="nav-link m-1 dropdown-toggle" href="./calls.html" title="Calls"
+                                role="button" data-toggle="dropdown" aria-expanded="false">
+                                <strong>Calls</strong>
+                            </a>
+                            
+                            <div class="dropdown-menu">
+                                
+                                
+                                <a class="dropdown-item text-secondary" href="./calls.html" rel="noopener">
+                                    
+                                    General Info<br>
+                                    
+
+                                </a>
+                                
+                                
+                                
+                                <a class="dropdown-item text-secondary" href="./calls-cfp.html" rel="noopener">
+                                    
+                                    Papers<br>
+                                    
+
+                                </a>
+                                
+                                
+                                
+                                <a class="dropdown-item text-secondary" href="./submission-guidelines.html" rel="noopener">
+                                    
+                                    Submission Guidelines<br>
+                                    
+
+                                </a>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                            
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </ul>
+
+
+                    <ul class="navbar-nav ml-auto">
+                        
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 offset-xl-1">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner" role="listbox">
+                    
+                    
+                    <div class="carousel-item active">
+                        <img class="img-fluid" src="./assets/images/slideshow/banner.jpg" alt="ICS 2027"
+                            style="width:100%; height:400px; display:block; object-fit:cover; object-position:bottom left;">
+                        <img class="conference-banner-logo" src="./assets/images/logo.png" alt="ICS 2027">
+                        <div class="carousel-caption">
+                            <h4>ICS 2027</h4>
+                            <h6>June 5-11, 2027<br>Atlanta, Georgia, USA</h6>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</header>
+
+            <div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-2 mb-xs-2 mb-sm-2">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 offset-xl-1 ">
+        <br>
+<div class="row mt-xs-0 mt-sm-0 my-2">
+    <div class="col conference-text text-muted">
+        <div class="row">
+            <div class="col-12">
+                <div id="days" class="alert alert-success rounded text-center mx-3">
+                    
+                    <a class="h6 alert-link" href="#day1">Day 1</a>
+                     | 
+                    
+                    <a class="h6 alert-link" href="#day2">Day 2</a>
+                     | 
+                    
+                    <a class="h6 alert-link" href="#day3">Day 3</a>
+                     | 
+                    
+                    <a class="h6 alert-link" href="#day4">Day 4</a>
+                     
+                    
+                </div>
+            </div>
+        </div>
+
+        
+        
+        <hr>
+        <div>
+            <div>
+                <h4 id="day1" class="schedule-table-heading">
+                    <a class="text-secondary" href="#">
+                        <i class="fa-solid fa-arrow-up mr-2" aria-hidden="true"></i>
+                    </a>
+                    Day 1 - Workshops - 13th July (Tinkham Veale University Center, Case Western Reserve University)
+                </h4>
+            </div>
+            <table class="table table-bordered table-hover table-sm">
+                
+                <thead>
+                    <tr>
+                        <th class="w-25"></th>
+                        <th colspan="6" class="bg-light text-center h6 align-middle"><a href='./workshops.html'>Workshops and Tutorials</a></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td class="bg-light text-center h6 align-middle">
+                            <div>8:00 AM - 9:00 AM</div>
+                        </td>
+                        
+                        <td colspan=6 class="table-warning text-center align-middle">
+                            <h6 class="text-center mb-1 mt-1">Breakfast + Registration</h6>
+                        </td>
+                        
+
+                    </tr>
+                    
+                    <tr>
+                        <td class="bg-light text-center h6 align-middle">
+                            <div>9:00 AM - 10:30 AM</div>
+                        </td>
+                        
+                            
+                            <td class="text-center align-middle"><a href="https://nowlab.cse.ohio-state.edu/tutorials/hpdc2026_hpn">Tutorial: High-Performance and Smart Networking Technologies for HPC and AI</a><br> Room: First floor conference room </td>
+                            
+                            <td class="text-center align-middle"><a href="https://sites.google.com/view/quasar26">QUASAR</a><br> Room: Second Floor Conference Room </td>
+                            
+                            <td class="text-center align-middle"><a href="https://sites.google.com/view/rexio/">REX-IO</a><br> Room: Senior Classroom B </td>
+                            
+                            <td class="text-center align-middle"><a href="https://sites.google.com/view/flexscience">FlexScience</a><br> Room: Senior Classroom A </td>
+                            
+                        
+
+                    </tr>
+                    
+                    <tr>
+                        <td class="bg-light text-center h6 align-middle">
+                            <div>10:30 AM - 11:00 AM</div>
+                        </td>
+                        
+                        <td colspan=6 class="table-warning text-center align-middle">
+                            <h6 class="text-center mb-1 mt-1">Coffee Break</h6>
+                        </td>
+                        
+
+                    </tr>
+                    
+                    <tr>
+                        <td class="bg-light text-center h6 align-middle">
+                            <div>11:00 AM - 12:30 PM</div>
+                        </td>
+                        
+                            
+                            <td class="text-center align-middle"><a href="https://nowlab.cse.ohio-state.edu/tutorials/hpdc2026_hpn">Tutorial: High-Performance and Smart Networking Technologies for HPC and AI</a><br> Room: First floor conference room </td>
+                            
+                            <td class="text-center align-middle"><a href="https://sites.google.com/view/quasar26">QUASAR</a><br> Room: Second Floor Conference Room </td>
+                            
+                            <td class="text-center align-middle"><a href="https://sites.google.com/view/rexio/">REX-IO</a><br> Room: Senior Classroom B </td>
+                            
+                            <td class="text-center align-middle"><a href="https://sites.google.com/view/flexscience">FlexScience</a><br> Room: Senior Classroom A </td>
+                            
+                        
+
+                    </tr>
+                    
+                    <tr>
+                        <td class="bg-light text-center h6 align-middle">
+                            <div>12:30 PM - 1:30 PM</div>
+                        </td>
+                        
+                        <td colspan=6 class="table-warning text-center align-middle">
+                            <h6 class="text-center mb-1 mt-1">(Lunch on Your Own)</h6>
+                        </td>
+                        
+
+                    </tr>
+                    
+                    <tr>
+                        <td class="bg-light text-center h6 align-middle">
+                            <div>1:30 PM - 3:00 PM</div>
+                        </td>
+                        
+                            
+                            <td class="text-center align-middle"><a href="https://nowlab.cse.ohio-state.edu/tutorials/hidl_HPDC26/">Tutorial: Principles and Practice of High Performance Deep Learning Training and Inference</a><br> Room: First Floor Conference Room </td>
+                            
+                            <td class="text-center align-middle"><a href="https://sites.google.com/view/quasar26">QUASAR</a><br> Room: Second Floor Conference Room </td>
+                            
+                            <td class="text-center align-middle"><a href="	https://permavost.github.io/">PERMAVOST</a><br> Room: Senior Classroom A </td>
+                            
+                            <td class="text-center align-middle"><a href="	https://ai4sys.github.io/">AI4Sys</a><br> Room: Senior Classroom B </td>
+                            
+                            <td class="text-center align-middle"><a href="https://hpc-and-ai.github.io/">Tutorial: When Error-Bounded Lossy Compression Meets Large-Scale AI Model Training in Federated Environments</a><br> Room: Student Organization Center </td>
+                            
+                        
+
+                    </tr>
+                    
+                    <tr>
+                        <td class="bg-light text-center h6 align-middle">
+                            <div>3:00 PM - 3:30 PM</div>
+                        </td>
+                        
+                        <td colspan=6 class="table-warning text-center align-middle">
+                            <h6 class="text-center mb-1 mt-1">Coffee Break</h6>
+                        </td>
+                        
+
+                    </tr>
+                    
+                    <tr>
+                        <td class="bg-light text-center h6 align-middle">
+                            <div>3:30 PM - 5:00 PM</div>
+                        </td>
+                        
+                            
+                            <td class="text-center align-middle"><a href="https://nowlab.cse.ohio-state.edu/tutorials/hidl_HPDC26/">Tutorial: Principles and Practice of High Performance Deep Learning Training and Inference</a><br> Room: First Floor Conference Room </td>
+                            
+                            <td class="text-center align-middle"><a href="https://sites.google.com/view/quasar26">QUASAR</a><br> Room: Second Floor Conference Room </td>
+                            
+                            <td class="text-center align-middle"><a href="	https://permavost.github.io/">PERMAVOST</a><br> Room: Senior Classroom A </td>
+                            
+                            <td class="text-center align-middle"><a href="	https://ai4sys.github.io/">AI4Sys</a><br> Room: Senior Classroom B </td>
+                            
+                            <td class="text-center align-middle"><a href="https://hpc-and-ai.github.io/">Tutorial: When Error-Bounded Lossy Compression Meets Large-Scale AI Model Training in Federated Environments</a><br> Room: Student Organization Center </td>
+                            
+                        
+
+                    </tr>
+                    
+                </tbody>
+                
+            </table>
+        </div>
+        
+        <hr>
+        <div>
+            <div>
+                <h4 id="day2" class="schedule-table-heading">
+                    <a class="text-secondary" href="#">
+                        <i class="fa-solid fa-arrow-up mr-2" aria-hidden="true"></i>
+                    </a>
+                    Day 2 - 14th July (Foster-Castele Great Hall)
+                </h4>
+            </div>
+            <table class="table table-bordered table-hover table-sm">
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>8:00 AM - 9:00 AM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-warning text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">Breakfast + Opening Remarks (8:45 AM)</h6>
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>9:00 AM - 10:00 AM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-success text-center align-middle">
+                            <h5 class="text-center">Keynote: <i>The Social Life of Distributed Systems: From Virtual Organizations to Intentional Systems</i></h5>
+                            
+                                    <details>
+                                        <summary>Abstract</summary>
+                                        Twenty-five years ago, the "Grid Problem" was defined as flexible, secure, and coordinated resource sharing among dynamic collections of individuals and institutions — the Virtual Organization (VO). The Anatomy of the Grid (2001) focused on the technical "brawn" required for multi-institutional interoperability, but it soon became clear that infrastructure alone could not solve the challenges of collaborative discovery. In Brain Meets Brawn: Why Grid and Agents Need Each Other (2004), we argued that autonomous agents would provide the necessary "brains" to manage the complexity, coordination, and scale of these distributed environments.
+Over the following two decades, this perspective evolved toward socio-technical systems in which data, policy, organizational structure, and human interaction became first-class concerns. Our work on Deriva and Deriva-ML treats continuously evolving, curated data collections as the core organizing principle for collaborative discovery, making explicit the rich relationships among data, processes, collaborators, and outcomes across the lifetime of a scientific project. This shift also reframes a long-standing challenge: existing approaches to reproducibility preserve computational artifacts and execution histories, but perfect reconstruction of an experiment does not guarantee reproduction of scientific understanding — one can faithfully reproduce the wrong answer.
+By making context explicit and persistent, data-centric systems create the foundation for a new class of intentional systems: systems that represent, maintain, and act upon the goals, assumptions, and shared understanding that give scientific results their meaning, not merely the artifacts they produce. The emergence of Large Language Models now makes this practical. Earlier agent-based systems were constrained by narrow reasoning and brittle coordination; LLMs supply a reasoning substrate powerful enough to finally realize the long-envisioned potential of agent-mediated science, shifting the focus from process-centric automation to managing the interactional layer of discovery itself.
+In this talk, I will discuss recent work in which agent-based systems perform a dual role: executing computational tasks, and — in coordination with a data-centric ecosystem — serving as the "social glue" that captures intent, maintains semantic alignment, and manages shared state across long-running human-agent collaborations. Consider a multi-institutional effort to develop deep learning models for detecting referable glaucoma from fundus photographs collected through a Los Angeles County safety-net teleretinal screening program. As cohorts are refined, label conventions evolve, and foundation-model and supervised approaches are compared across sites, the surrounding agents capture not just the resulting models and metrics, but the clinical and methodological rationale behind each choice — so that when a collaborator, a reviewer, or a downstream agent revisits the work months later, the reasoning behind the result is recoverable, not just the result itself. If the Grid was originally conceived as enabling coordinated resource sharing among dynamic collections of individuals and institutions, the convergence of AI, data-centric systems, and agent-based computing now lets us deliver on a larger vision: coordinating understanding, intent, and discovery across long-lived human-agent collectives.
+
+                                      </details>
+                            <p>
+
+                            <div display="flex" align-items="center" justify-content="center">
+                                <div>
+                                    <img width="200" src="assets/images/keynotes/carl_kesselman.jpg" alt="">
+                                </div>
+                                <div>
+                                    
+                                    Speaker: <i>Carl Kesselman</i> 
+                                    
+                                    <details>
+                                        <summary>Biography</summary>
+                                        Carl Kesselman is the William M. Keck Professor of Engineering at the University of Southern California, with appointments in the Daniel J. Epstein Department of Industrial and Systems Engineering, the Thomas Lord Department of Computer Science, the Keck School of Medicine, and the Herman Ostrow School of Dentistry. He is Director of the Informatics Systems Research Division at the USC Information Sciences Institute and is internationally recognized as one of the pioneers of Grid Computing and distributed cyberinfrastructure.
+Kesselman co-founded the Globus Project, whose technologies and concepts helped establish the foundations for modern distributed, cloud, and data-intensive computing systems. His research has spanned distributed systems, scientific cyberinfrastructure, data integration, security, and large-scale collaborative science platforms. More recently, his work has focused on data-centric socio-technical ecosystems, AI-enabled scientific infrastructure, and agent-mediated systems that support long-running human-machine scientific interactions. He has co-authored four papers recognized in HPDC's retrospective list of the most important papers from the conference's first twenty years.
+Kesselman is a Fellow of the ACM, IEEE, and the British Computer Society. His honors include the British Computer Society's Lovelace Medal, the IEEE Internet Award, and the IEEE Computer Society's Goode Memorial Award.
+
+                                      </details>
+                                    
+                                    
+                                    <br>Session Chair: <i>Manish Parashar</i>
+                                    
+                                    
+                                    
+                                </div>
+                       </div>
+                            </p>
+                                    
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>10:00 AM - 10:20 AM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-warning text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">Coffee Break</h6>
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>10:20 AM - 11:20 AM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-info text-center align-middle">
+                            <h5 class="text-center mb-1 mt-1">Session 1 — LLM Inference: Scheduling & Serving</h5>
+                            
+                            <p> <i><a href="mailto:satishpuri.dgp@gmail.com">Satish Puri</a></i></p>
+                            
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>STAR: Decode-Phase Rescheduling for LLM Inference</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Zhibin Wang</a>
+                                    
+                                , 
+                                <i>Zetao Hong</a>
+                                    
+                                , 
+                                <i>Xue Li</a>
+                                    
+                                , 
+                                <i>Zibo Wang</a>
+                                    
+                                , 
+                                <i>Shipeng Li</a>
+                                    
+                                , 
+                                <i>Qingkai Meng</a>
+                                    
+                                , 
+                                <i>Qing Wang</a>
+                                    
+                                , 
+                                <i>Chengying Huan</a>
+                                    
+                                , 
+                                <i>Rong Gu</a>
+                                    
+                                , 
+                                <i>Sheng Zhong</a>
+                                    
+                                , 
+                                <i>Chen Tian</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>PKAS: Predictive KVCache-Aware Scheduling</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Jie Ye</a>
+                                    
+                                , 
+                                <i>Avinash Maurya</a>
+                                    
+                                , 
+                                <i>Krishna Teja Chitty-Venkata</a>
+                                    
+                                , 
+                                <i>Bogdan Nicolae</a>
+                                    
+                                , 
+                                <i>Anthony Kougkas</a>
+                                    
+                                , 
+                                <i>Xian-He Sun</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Omnia: RAG Serving through Speculative Scheduling</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Rongtian Fu</a>
+                                    
+                                , 
+                                <i>Shigang Li</a>
+                                    
+                                , 
+                                <i>Youxuan Xu</a>
+                                    
+                                , 
+                                <i>Tong Wu</a>
+                                    
+                                , 
+                                <i>Zhi Ma</a>
+                                    
+                                , 
+                                <i>Jinliang Shi</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Kizashi Talks Session 1: The Next User Never Sleeps by Michael Papka (11:05 AM - 11:25 AM)</b> </p>
+
+                            
+                            <p>
+                                
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                </tbody>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>11:30 AM - 12:30 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-info text-center align-middle">
+                            <h5 class="text-center mb-1 mt-1">Session 2 — Scaling Generative Inference</h5>
+                            
+                            <p> <i><a href="mailto:bogdan.nicolae@gmail.com">Bogdan Nicolae</a></i></p>
+                            
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Scaling Attention Beyond GPUs for LLM Inference</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Weishu Deng</a>
+                                    
+                                , 
+                                <i>Yujie Yang</a>
+                                    
+                                , 
+                                <i>Peiran Du</a>
+                                    
+                                , 
+                                <i>Lingfeng Xiang</a>
+                                    
+                                , 
+                                <i>Zhen Lin</a>
+                                    
+                                , 
+                                <i>Chen Zhong</a>
+                                    
+                                , 
+                                <i>Faraz Ahmed</a>
+                                    
+                                , 
+                                <i>Lianjie Cao</a>
+                                    
+                                , 
+                                <i>Puneet Sharma</a>
+                                    
+                                , 
+                                <i>Song Jiang</a>
+                                    
+                                , 
+                                <i>Hui Lu</a>
+                                    
+                                , 
+                                <i>Jia Rao</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Accelerating Block Low-Rank Foundation Model Inference on Memory-Constrained GPUs</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Pierre Abillama</a>
+                                    
+                                , 
+                                <i>Changwoo Lee</a>
+                                    
+                                , 
+                                <i>Juechu Dong</a>
+                                    
+                                , 
+                                <i>David Blaauw</a>
+                                    
+                                , 
+                                <i>Dennis Sylvester</a>
+                                    
+                                , 
+                                <i>Hun-Seok Kim</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>MoE-Lens: High-Throughput MoE LLM Inference at the Hardware Limit</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Yichao Yuan</a>
+                                    
+                                , 
+                                <i>Lin Ma</a>
+                                    
+                                , 
+                                <i>Nishil Talati</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Kizashi Talks Session 2: Five Bets on the Physical Future of Computing by Jeffrey Vetter (12:15 PM - 12:35 PM)</b> </p>
+
+                            
+                            <p>
+                                
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                </tbody>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>12:30 PM - 1:30 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-warning text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">Lunch</h6>
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>1:30 PM - 2:30 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-info text-center align-middle">
+                            <h5 class="text-center mb-1 mt-1">Session 3 — MoE Systems & Distributed LLM Training</h5>
+                            
+                            <p> <i><a href="mailto:pdinda@northwestern.edu">Peter Dinda</a></i></p>
+                            
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>UniEP: Unified Expert-Parallel MoE MegaKernel for Training</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Size Zheng</a>
+                                    
+                                , 
+                                <i>Xuegui Zheng</a>
+                                    
+                                , 
+                                <i>Li-Wen Chang</a>
+                                    
+                                , 
+                                <i>Jidong Zhai</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>ResiHP: Taming LLM Training Failures with Dynamic Hybrid Parallelism</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Tenghui Ma</a>
+                                    
+                                , 
+                                <i>Jihu Guo</a>
+                                    
+                                , 
+                                <i>Wei Gao</a>
+                                    
+                                , 
+                                <i>Sitian Lu</a>
+                                    
+                                , 
+                                <i>Zhisheng Ye</a>
+                                    
+                                , 
+                                <i>Hanjing Wang</a>
+                                    
+                                , 
+                                <i>Dahua Lin</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>TACO: Communication Compression for Tensor-Parallel LLM Training</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Man Liu</a>
+                                    
+                                , 
+                                <i>Xingchen Liu</a>
+                                    
+                                , 
+                                <i>Xingjian Tian</a>
+                                    
+                                , 
+                                <i>Bing Lu</a>
+                                    
+                                , 
+                                <i>Shengkai Lyu</a>
+                                    
+                                , 
+                                <i>Shengquan Yin</a>
+                                    
+                                , 
+                                <i>Wenjing Huang</a>
+                                    
+                                , 
+                                <i>Zheng Wei</a>
+                                    
+                                , 
+                                <i>Hairui Zhao</a>
+                                    
+                                , 
+                                <i>Guangming Tan</a>
+                                    
+                                , 
+                                <i>Dingwen Tao</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                </tbody>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>2:40 PM - 3:40 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-info text-center align-middle">
+                            <h5 class="text-center mb-1 mt-1">Session 4 — Programming Models, Frameworks & Compilers</h5>
+                            
+                            <p> <i><a href="mailto:panda@cse.ohio-state.edu">Dhabaleswar K (DK) Panda</a></i></p>
+                            
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>SYCL++: Unified Programming for Heterogeneous Supercomputers at Scale</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Zitao Shen</a>
+                                    
+                                , 
+                                <i>Yuyang Jin</a>
+                                    
+                                , 
+                                <i>Kinman Lei</a>
+                                    
+                                , 
+                                <i>Zixuan Ma</a>
+                                    
+                                , 
+                                <i>Wenqiang Wang</a>
+                                    
+                                , 
+                                <i>Yinuo Wang</a>
+                                    
+                                , 
+                                <i>Wenhao Zhou</a>
+                                    
+                                , 
+                                <i>Zhenchuan Chen</a>
+                                    
+                                , 
+                                <i>Di Wei</a>
+                                    
+                                , 
+                                <i>Qi Zhang</a>
+                                    
+                                , 
+                                <i>Fei Wang</a>
+                                    
+                                , 
+                                <i>Ying Liu</a>
+                                    
+                                , 
+                                <i>Lin Gan</a>
+                                    
+                                , 
+                                <i>Jidong Zhai</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Floating Point Virtualization With Tiny Numbers</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Kevin Hayes</a>
+                                    
+                                , 
+                                <i>Peter Dinda</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>FAME: Framework for Multi-Agent RL on Heterogeneous Platforms</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Samuel Wiggins</a>
+                                    
+                                , 
+                                <i>Nikunj Gupta</a>
+                                    
+                                , 
+                                <i>Grace Zgheib</a>
+                                    
+                                , 
+                                <i>Mahesh A. Iyer</a>
+                                    
+                                , 
+                                <i>Viktor Prasanna</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>CARBS: Compiler Autotuning via Randomized Biased Search (Best Paper Award Nominee)</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Wei Li</a>
+                                    
+                                , 
+                                <i>Bin Gao</a>
+                                    
+                                , 
+                                <i>Weng-Fai Wong</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                </tbody>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>3:40 PM - 4:00 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-warning text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">Coffee Break</h6>
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>4:00 PM - 5:00 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-secondary text-center align-middle">
+                            <h5 class="text-center mt-1 mb-1"><a href="panels.html">The Five Most Important Research Problems for the Next Decade</a></h5>
+                            <br>
+                            <h5 class="text-center mt-1 mb-1"></h5>
+                            <!-- <p></p> 
+                            <details>
+                                <summary>Abstract</summary>
+                                
+                            </details>
+                            <br>
+                            <p> Members: <i></i> </p>
+                            <br>-->
+                            <p>Moderator: <i>Manish Parashar</i></p>
+                        
+                    </tr>
+                </thead>
+                
+                
+                
+            </table>
+        </div>
+        
+        <hr>
+        <div>
+            <div>
+                <h4 id="day3" class="schedule-table-heading">
+                    <a class="text-secondary" href="#">
+                        <i class="fa-solid fa-arrow-up mr-2" aria-hidden="true"></i>
+                    </a>
+                    Day 3 - 15th July (Foster-Castele Great Hall)
+                </h4>
+            </div>
+            <table class="table table-bordered table-hover table-sm">
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>8:00 AM - 9:00 AM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-warning text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">Breakfast</h6>
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>9:00 AM - 10:00 AM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-success text-center align-middle">
+                            <h5 class="text-center">Keynote: <i>Misconceptions in Parallel Computing</i></h5>
+                            
+                                    <details>
+                                        <summary>Abstract</summary>
+                                        Abstract: For many years, parallel computing was driven by the steady advance of commodity processors. Clusters of commodity CPUs provided ever greater computing power. Simple parallel performance models made it easy to analyze algorithms and implementations. Systems with mostly nodes of identical type became common, simplifying the application environment. Since 2005, the situation has become increasingly complicated. The end of Dennard scaling has spurred ever greater degrees of parallelism within a single processor chip, as well as specialization in GPUs and other processors. AI has driven systems to sizes never seen before, as well as changing the mix of operations. The way we think about parallel systems needs to be reexamined. In this talk, I will talk about what I think are misconceptions in parallel computing that are a result of the changes in computing, especially since 2005. These include: Is Moore's Law over? Do we still have good performance models? Are we prepared for systems with dissimilar node types? Are standards still useful? I will close with a few challenges for the community.
+
+                                      </details>
+                            <p>
+
+                            <div display="flex" align-items="center" justify-content="center">
+                                <div>
+                                    <img width="200" src="assets/images/keynotes/william_gropp.jpg" alt="">
+                                </div>
+                                <div>
+                                    
+                                    Speaker: <i>William Gropp</i> 
+                                    
+                                    <details>
+                                        <summary>Biography</summary>
+                                        William Gropp is a professor in the Siebel School of Computing and Data Science at the University of Illinois Urbana‑Champaign, where he holds a Grainger Distinguished Chair in Engineering. He earned his Ph.D. in Computer Science from Stanford University in 1982 and has held research and leadership positions at Yale University and Argonne National Laboratory. Gropp’s research focuses on parallel computing, scientific software, and numerical methods for partial differential equations. He is widely known for his contributions to high‑performance computing, including foundational work on the MPI message‑passing standard and the development of influential software tools used throughout computational science. From 2016 to 2025, he served as Director of the National Center for Supercomputing Applications (NCSA), guiding major initiatives in advanced computing and data‑intensive research. He currently chairs the Computing Community Consortium for the Computing Research Association, helping shape long‑term research directions for the computing field. Gropp is a Fellow of AAAS, ACM, IEEE, and SIAM, a member of the National Academy of Engineering, and the recipient of numerous awards recognizing his impact on high‑performance computing.
+                                      </details>
+                                    
+                                    
+                                    <br>Session Chair: <i>Devesh Tiwari</i>
+                                    
+                                    
+                                    
+                                </div>
+                       </div>
+                            </p>
+                                    
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>10:00 AM - 10:20 AM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-warning text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">Coffee Break</h6>
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>10:20 AM - 11:20 AM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-info text-center align-middle">
+                            <h5 class="text-center mb-1 mt-1">Session 5 — Scientific Applications at Scale</h5>
+                            
+                            <p> <i><a href="mailto:papka@anl.gov">Michael Papka</a></i></p>
+                            
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>POLAR-PIC: Matrixized PIC for Plasma Physics</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Yizhuo Rao</a>
+                                    
+                                , 
+                                <i>Xingjian Cui</a>
+                                    
+                                , 
+                                <i>Shangzhi Pang</a>
+                                    
+                                , 
+                                <i>Jiabin Xie</a>
+                                    
+                                , 
+                                <i>Guangnan Feng</a>
+                                    
+                                , 
+                                <i>Ziyan Zhang</a>
+                                    
+                                , 
+                                <i>Jinhui Wei</a>
+                                    
+                                , 
+                                <i>Languang Gao</a>
+                                    
+                                , 
+                                <i>Zhenyu Wang</a>
+                                    
+                                , 
+                                <i>Zhiguang Chen</a>
+                                    
+                                , 
+                                <i>Yutong Lu</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b> A Fully GPU-Accelerated Framework for High-Performance Configuration Interaction Selection with Neural Network Quantum States</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Daran Sun</a>
+                                    
+                                , 
+                                <i>Bowen Kan</a>
+                                    
+                                , 
+                                <i>Haoquan Long</a>
+                                    
+                                , 
+                                <i>Hairui Zhao</a>
+                                    
+                                , 
+                                <i>Haoxu Li</a>
+                                    
+                                , 
+                                <i>Yicheng Liu</a>
+                                    
+                                , 
+                                <i>Pengyu Zhou</a>
+                                    
+                                , 
+                                <i>Ankang Feng</a>
+                                    
+                                , 
+                                <i>Wenjing Huang</a>
+                                    
+                                , 
+                                <i>Yida Gu</a>
+                                    
+                                , 
+                                <i>Zhenyu Li</a>
+                                    
+                                , 
+                                <i>Honghui Shang</a>
+                                    
+                                , 
+                                <i>Yunquan Zhang</a>
+                                    
+                                , 
+                                <i>Dingwen Tao</a>
+                                    
+                                , 
+                                <i>Ninghui Sun</a>
+                                    
+                                , 
+                                <i>Guangming Tan</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Full-Core Fluid-Structure-Interaction Simulation of Nuclear Reactor</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Xue Miao</a>
+                                    
+                                , 
+                                <i>Jue Wang</a>
+                                    
+                                , 
+                                <i>Qida Lin</a>
+                                    
+                                , 
+                                <i>Shufei Zhang</a>
+                                    
+                                , 
+                                <i>Rongqiang Cao</a>
+                                    
+                                , 
+                                <i>Chunbao Zhou</a>
+                                    
+                                , 
+                                <i>Ningming Nie</a>
+                                    
+                                , 
+                                <i>He Bai</a>
+                                    
+                                , 
+                                <i>Yangang Wang</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Endeavor: PairHMM for DNA Variant Detection at Genome Scale</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Miguel Graça</a>
+                                    
+                                , 
+                                <i>Aleksandar Ilic</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                </tbody>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>11:30 AM - 12:30 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-info text-center align-middle">
+                            <h5 class="text-center mb-1 mt-1">Session 6 — Scientific Data Compression</h5>
+                            
+                            <p> <i><a href="mailto:jlofstead@acm.org">Jay Lofstead</a></i></p>
+                            
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>OPAL: On-demand Progressive Accelerated Scientific Lossy Compression</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Longtao Zhang</a>
+                                    
+                                , 
+                                <i>Ruoyu Li</a>
+                                    
+                                , 
+                                <i>Zhuoxun Yang</a>
+                                    
+                                , 
+                                <i>Robert Underwood</a>
+                                    
+                                , 
+                                <i>Sheng Di</a>
+                                    
+                                , 
+                                <i>Daoce Wang</a>
+                                    
+                                , 
+                                <i>Jinyang Liu</a>
+                                    
+                                , 
+                                <i>Jiajun Huang</a>
+                                    
+                                , 
+                                <i>Franck Cappello</a>
+                                    
+                                , 
+                                <i>Kai Zhao</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>TZ: High-Ratio Scientific Data Compression on GPUs</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Zhuoxun Yang</a>
+                                    
+                                , 
+                                <i>Ruoyu Li</a>
+                                    
+                                , 
+                                <i>Amit Subrahmanya</a>
+                                    
+                                , 
+                                <i>Vishwas Rao</a>
+                                    
+                                , 
+                                <i>Sheng Di</a>
+                                    
+                                , 
+                                <i>Robert Underwood</a>
+                                    
+                                , 
+                                <i>Longtao Zhang</a>
+                                    
+                                , 
+                                <i>Jinyang Liu</a>
+                                    
+                                , 
+                                <i>Franck Cappello</a>
+                                    
+                                , 
+                                <i>Kai Zhao</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b> QProR: An Efficient Framework for Quantity-of-Interest Based Progressive Retrieval with Guaranteed Error Control</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Wenbo Li</a>
+                                    
+                                , 
+                                <i>Qian Gong</a>
+                                    
+                                , 
+                                <i>Xuan Wu</a>
+                                    
+                                , 
+                                <i>Jieyang Chen</a>
+                                    
+                                , 
+                                <i>Qing Liu</a>
+                                    
+                                , 
+                                <i>Xubin He</a>
+                                    
+                                , 
+                                <i>Norbert Podhorszki</a>
+                                    
+                                , 
+                                <i>Scott Klasky</a>
+                                    
+                                , 
+                                <i>Xin Liang</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Bridging Information Theory and Practice for Scientific Lossy Compression</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Sujata Sinha</a>
+                                    
+                                , 
+                                <i>Sheng Di</a>
+                                    
+                                , 
+                                <i>Vishwas Rao</a>
+                                    
+                                , 
+                                <i>Robert Underwood</a>
+                                    
+                                , 
+                                <i>David Lenz</a>
+                                    
+                                , 
+                                <i>Zizhe Jian</a>
+                                    
+                                , 
+                                <i>Zhuoxun Yang</a>
+                                    
+                                , 
+                                <i>Kai Zhao</a>
+                                    
+                                , 
+                                <i>Lingjia Liu</a>
+                                    
+                                , 
+                                <i>Franck Cappello</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                </tbody>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>12:30 PM - 1:30 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-warning text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">Lunch</h6>
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>1:30 PM - 2:30 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-info text-center align-middle">
+                            <h5 class="text-center mb-1 mt-1">Session 7 — Graph Processing & Community Detection</h5>
+                            
+                            <p> <i><a href="mailto:dilma@cse.tamu.edu">Dilma Da Silva</a></i></p>
+                            
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>SAGA: State-Aware Graph Analytics for Combinatorial Optimization on Dynamic Graphs</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Rohit Prajapati</a>
+                                    
+                                , 
+                                <i>Prajjwal Nijhara</a>
+                                    
+                                , 
+                                <i>Dip Sankar Banerjee</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Efficient Tracking of Communities on Evolving Graphs with Leiden</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Subhajit Sahu</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>νMG-LPA and νBM-LPA: Memory Efficient GPU-based Label Propagation Algorithms (LPA) for Community Detection</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Subhajit Sahu</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Kizashi Talks Session 7: Taking the Seatbelts Out of the Supercomputer by Glenn Lockwood (2:15 PM - 2:35 PM)</b> </p>
+
+                            
+                            <p>
+                                
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                </tbody>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>2:40 PM - 3:40 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-info text-center align-middle">
+                            <h5 class="text-center mb-1 mt-1">Session 8 — Storage & I/O for Data-Intensive Workloads</h5>
+                            
+                            <p> <i>Sarah Neuwirth</i></p>
+                            
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>A High-Performance Persistent Transactional Memory System via Cooperative Concurrency</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Hao Hu</a>
+                                    
+                                , 
+                                <i>Xinrui Zheng</a>
+                                    
+                                , 
+                                <i>Yizou Chen</a>
+                                    
+                                , 
+                                <i>Xiangyu Zou</a>
+                                    
+                                , 
+                                <i>Erci Xu</a>
+                                    
+                                , 
+                                <i>Hongpeng Wang</a>
+                                    
+                                , 
+                                <i>Wen Xia</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>GLANCED-IO: Taming I/O Optimization for Deep Learning at Scale</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Ray A. O. Sinurat</a>
+                                    
+                                , 
+                                <i>William Nixon</a>
+                                    
+                                , 
+                                <i>Philip Carns</a>
+                                    
+                                , 
+                                <i>Huihuo Zheng</a>
+                                    
+                                , 
+                                <i>Sandeep Madireddy</a>
+                                    
+                                , 
+                                <i>Sam Foreman</a>
+                                    
+                                , 
+                                <i>Troy Arcomano</a>
+                                    
+                                , 
+                                <i>Robert Ross</a>
+                                    
+                                , 
+                                <i>Haryadi S. Gunawi</a>
+                                    
+                                , 
+                                <i>Hariharan Devarajan</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Merkle-Tree Weight Snapshot Deduplication for NN Training Provenance</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Kin Wai Ng</a>
+                                    
+                                , 
+                                <i>Francesco Antici</a>
+                                    
+                                , 
+                                <i>Nigel Tan</a>
+                                    
+                                , 
+                                <i>Befikir Bogale</a>
+                                    
+                                , 
+                                <i>Caleb Han</a>
+                                    
+                                , 
+                                <i>Florence Tama</a>
+                                    
+                                , 
+                                <i>Osamu Miyashita</a>
+                                    
+                                , 
+                                <i>Bogdan Nicolae</a>
+                                    
+                                , 
+                                <i>Michela Taufer</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Pome: Parallelizing I/Os and Computations for LSM-tree Storage (Best Paper Winner)</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Yanpeng Hu</a>
+                                    
+                                , 
+                                <i>Li Zhu</a>
+                                    
+                                , 
+                                <i>Lei Jia</a>
+                                    
+                                , 
+                                <i>Chundong Wang</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                </tbody>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>3:40 PM - 4:00 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-warning text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">Coffee Break</h6>
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>4:00 PM - 5:00 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-secondary text-center align-middle">
+                            <h5 class="text-center mt-1 mb-1"><a href="panels.html">Data Centers: Information, Misinformation, and the future of large scale computing</a></h5>
+                            <br>
+                            <h5 class="text-center mt-1 mb-1"></h5>
+                            <!-- <p></p> 
+                            <details>
+                                <summary>Abstract</summary>
+                                
+                            </details>
+                            <br>
+                            <p> Members: <i></i> </p>
+                            <br>-->
+                            <p>Moderator: <i>Barney Maccabe</i></p>
+                        
+                    </tr>
+                </thead>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>6:00 PM - 7:00 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-dark text-center align-middle">
+                            <h6 class="text-light mb-1 mt-1">Poster Reception — Student, Conference, RSE, Industry</h6>
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>7:30 PM - 10:00 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-dark text-center align-middle">
+                            <h6 class="text-light mb-1 mt-1">Banquet Dinner and Museum Visit</h6>
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                
+                
+            </table>
+        </div>
+        
+        <hr>
+        <div>
+            <div>
+                <h4 id="day4" class="schedule-table-heading">
+                    <a class="text-secondary" href="#">
+                        <i class="fa-solid fa-arrow-up mr-2" aria-hidden="true"></i>
+                    </a>
+                    Day 4 - 16th July (Foster-Castele Great Hall)
+                </h4>
+            </div>
+            <table class="table table-bordered table-hover table-sm">
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>8:00 AM - 9:00 AM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-warning text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">Breakfast</h6>
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>9:00 AM - 10:00 AM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-success text-center align-middle">
+                            <h5 class="text-center">Keynote: <i>From Scalable Systems to Quantum Computing: Navigating New Computing Frontiers</i></h5>
+                            
+                                    <details>
+                                        <summary>Abstract</summary>
+                                        Over the past several decades, the high-performance parallel and distributed computing community has played a central role in advancing computing infrastructures, from operating systems to cloud platforms and large-scale distributed environments. These systems challenges are now reappearing in the context of emerging scientific application workflows that leverage advances in artificial intelligence (AI) and quantum information science. This talk connects a long-standing research trajectory in scalable systems with more recent work in quantum computing. It discusses how a researcher grounded in high- performance and distributed systems can approach the quantum computing landscape, identify familiar abstractions and challenges, and contribute to the emerging quantum software and systems stack. As quantum technologies evolve toward larger and more programmable platforms, issues such as orchestration of hybrid quantum–classical workflows, runtime systems, compilation, resource management, distributed control, and reliability are becoming increasingly important. Advances in AI and quantum computing point toward a future in which scalable systems expertise may play a foundational role in shaping new computing paradigms and scientific capabilities. The presentation will also provide an overview of the evolving U.S. federal research funding landscape in quantum computing, quantum networking, and quantum sensing.
+
+                                      </details>
+                            <p>
+
+                            <div display="flex" align-items="center" justify-content="center">
+                                <div>
+                                    <img width="200" src="assets/images/keynotes/Dilma_M_Da_Silva.png" alt="">
+                                </div>
+                                <div>
+                                    
+                                    Speaker: <i>Dilma M Da Silva</i> 
+                                    
+                                    <details>
+                                        <summary>Biography</summary>
+                                        Dilma Da Silva is a Regents Professor and holder of the Ford Design Professorship II in the Department of Computer Science and Engineering at Texas A&M University. From July 2022 to June 2026, she served in several leadership positions at the U.S. National Science Foundation. Her roles at Texas A&M include Department Head (2014-2019), Associate Dean (2019-2020), interim Director of the Texas A&M Institute of Data Science, and interim Director of the Texas A&M Cybersecurity Center. Her primary research interests are high performance computing, computer science education, and quantum computing. Before joining Texas A&M, she worked at Qualcomm Research (2012-2014), IBM Research (2000-2012), and the University of São Paulo (1996-2000). Dilma is an ACM Distinguished Scientist. She received her doctoral degree in computer science from Georgia Tech in 1997 and her bachelor&#39;s and master&#39;s degrees from the University of São Paulo, Brazil. She is passionate about mentoring and supporting the next generation of computing researchers and practitioners.
+
+                                      </details>
+                                    
+                                    
+                                    <br>Session Chair: <i>Dimitrios Nikolopoulos</i>
+                                    
+                                    
+                                    
+                                </div>
+                       </div>
+                            </p>
+                                    
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>10:00 AM - 10:20 AM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-warning text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">Coffee Break</h6>
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>10:20 AM - 11:20 AM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-info text-center align-middle">
+                            <h5 class="text-center mb-1 mt-1">Session 9 — Cloud, Serverless & Microservices</h5>
+                            
+                            <p> <i><a href="mailto:santonus@goa.bits-pilani.ac.in">Santonu Sarkar</a></i></p>
+                            
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Enabling High-Utilization and Low-Contention FaaS: A Request-Level Resource Provisioning Approach</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Runfu Li</a>
+                                    
+                                , 
+                                <i>Zishu Yu</a>
+                                    
+                                , 
+                                <i>Yifan Wang</a>
+                                    
+                                , 
+                                <i>Xiaohui Peng</a>
+                                    
+                                , 
+                                <i>Ninghui Sun</a>
+                                    
+                                , 
+                                <i>Zhiwei Xu</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Cremes: Cost-Efficient Microservice Execution on Spot Instances</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Liao Chen</a>
+                                    
+                                , 
+                                <i>Chenyu Lin</a>
+                                    
+                                , 
+                                <i>Junlin Chen</a>
+                                    
+                                , 
+                                <i>Shutian Luo</a>
+                                    
+                                , 
+                                <i>Huanle Xu</a>
+                                    
+                                , 
+                                <i>ChengZhong Xu</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Krysha: Cost-Efficient Geo-Distributed Serverless Microservices</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Yuqiu Zhang</a>
+                                    
+                                , 
+                                <i>Hans-Arno Jacobsen</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>ACM SRC Presentations (11:05 AM - 11:25 AM)</b> </p>
+
+                            
+                            <p>
+                                
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                </tbody>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>11:30 AM - 12:30 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-info text-center align-middle">
+                            <h5 class="text-center mb-1 mt-1">Session 10 — Data Systems for AI & Analytics</h5>
+                            
+                            <p> <i><a href="mailto:xiaoylu@ufl.edu">Xiaoyi Lu</a></i></p>
+                            
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>SIVF: GPU-Resident IVF Index for Streaming Vector Analytics</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Dongfang Zhao</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>BCCE: Block-Centric GPU Co-Design for Real-Time Range-Top-K Query at Scale</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Chengying Huan</a>
+                                    
+                                , 
+                                <i>Ziheng Meng</a>
+                                    
+                                , 
+                                <i>Zhengyi Yang</a>
+                                    
+                                , 
+                                <i>Yongchao Liu</a>
+                                    
+                                , 
+                                <i>Jie Zhang</a>
+                                    
+                                , 
+                                <i>Qing Wang</a>
+                                    
+                                , 
+                                <i>Jing Wang</a>
+                                    
+                                , 
+                                <i>Shaonan Ma</a>
+                                    
+                                , 
+                                <i>Zhibin Wang</a>
+                                    
+                                , 
+                                <i>Mingxing Zhang</a>
+                                    
+                                , 
+                                <i>Rong Gu</a>
+                                    
+                                , 
+                                <i>Baokun Wang</a>
+                                    
+                                , 
+                                <i>Guihai Chen</a>
+                                    
+                                , 
+                                <i>Chen Tian</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>ATLAS: Out-of-Core Inference for Billion-Scale GNNs</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Pranjal Naman</a>
+                                    
+                                , 
+                                <i>Yogesh Simmhan</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Kizashi Talks Session 10: Legal Prescriptions for AI Medical Scribes by Sharona Hoffman (12:15 PM - 12:35 PM)</b> </p>
+
+                            
+                            <p>
+                                
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                </tbody>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>12:30 PM - 1:30 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-warning text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">Lunch</h6>
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>1:30 PM - 2:30 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-info text-center align-middle">
+                            <h5 class="text-center mb-1 mt-1">Session 11 — Communication, Workflows & Sustainability</h5>
+                            
+                            <p> <i><a href="mailto:mxk331@case.edu">Mehmet Koyuturk</a></i></p>
+                            
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>GICC: GPU-Initiated Communication and Coordination Runtime</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Baodi Shan</a>
+                                    
+                                , 
+                                <i>Mauricio Araya-Polo</a>
+                                    
+                                , 
+                                <i>Barbara Chapman</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>When RDMA Goes Long-Haul: Characterization, Modeling, and Verbs-Level Emulation with Implications for Federated Learning</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Yuke Li</a>
+                                    
+                                , 
+                                <i>Zhonghao Chen</a>
+                                    
+                                , 
+                                <i>Xiaoyi Lu</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>JANUS: Resilient and Adaptive Data Transmission for Enabling Timely and Efficient</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Vladislav Esaulov</a>
+                                    
+                                , 
+                                <i>Jieyang Chen</a>
+                                    
+                                , 
+                                <i>Norbert Podhorszki</a>
+                                    
+                                , 
+                                <i>Fred Suter</a>
+                                    
+                                , 
+                                <i>Scott Klasky</a>
+                                    
+                                , 
+                                <i>Anu G. Bourgeois</a>
+                                    
+                                , 
+                                <i>Lipeng Wan</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>PowerQuant: Architecture-Agnostic GPU Power Estimation via Quantile Regression (Best Paper Nominee)</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Aditya Challa</a>
+                                    
+                                , 
+                                <i>Tanish Desai</a>
+                                    
+                                , 
+                                <i>Gargi Alavani Prabhu</a>
+                                    
+                                , 
+                                <i>Snehanshu Saha</a>
+                                    
+                                , 
+                                <i>Santonu Sarkar</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                </tbody>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>2:40 PM - 3:40 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-info text-center align-middle">
+                            <h5 class="text-center mb-1 mt-1">Session 12 — Emerging Generative & Agentic AI Workloads</h5>
+                            
+                            <p> <i><a href="mailto:s.andrei@csuohio.edu">Stefan Andrei</a></i></p>
+                            
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>DiTango: Cost-Effective Parallel Diffusion Generation with Selective Attention State Reuse</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Yuyang Chen</a>
+                                    
+                                , 
+                                <i>Runxin Zhong</a>
+                                    
+                                , 
+                                <i>Zan Zong</a>
+                                    
+                                , 
+                                <i>Hengjie Li</a>
+                                    
+                                , 
+                                <i>Yuyang Jin</a>
+                                    
+                                , 
+                                <i>Jidong Zhai</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p><b>Dynamo-MoE: Accelerating Sparse Large Model Inference</b> </p>
+
+                            
+                            <p>
+                                
+                                
+                                <i><b>Authors:</b></i> 
+                                <i>Jiahao Chen</a>
+                                    
+                                , 
+                                <i>Shigang Li</a>
+                                    
+                                , 
+                                <i>Rongtian Fu</a>
+                                    
+                                , 
+                                <i>Tong Wu</a>
+                                    
+                                , 
+                                <i>Zhi Ma</a>
+                                    
+                                , 
+                                <i>Jingkun Dong</a>
+                                    
+                            </p>
+                            
+                        </td>
+
+                    </tr>
+                    
+                </tbody>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>3:40 PM - 4:00 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-warning text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">Coffee Break</h6>
+                        </th>
+                        
+                    </tr>
+                </thead>
+                
+                
+                <thead>
+                    <tr>
+                        <th class="w-25 bg-light text-center h6 align-middle">
+                            <div>4:00 PM - 5:00 PM</div>
+                        </th>
+                        
+                        <th colspan="2" class="table-warning text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">Awards Announcements and Closing Remarks</h6> <br>
+                            
+                        </th>
+
+                        
+                    </tr>
+                </thead>
+                
+                
+                
+            </table>
+        </div>
+        
+        
+
+
+
+    <hr>
+    <br>
+    
+
+
+    </div>
+</div>
+    </div>
+</div>
+
+            <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 offset-xl-1">
+        <footer class="pt-3 mt-2 border-top">
+            <div class="text-muted font-italic font-weight-light small float-left pb-3">
+                
+                Last updated: September 26, 2026, 17:49:06.
+                
+            </div>
+            <div class="text-muted small float-right pb-3">
+                &copy; 41st ACM International Conference on Supercomputing
+            </div>
+        </footer>
+    </div>
+</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
+    </script>
+    <script src="./assets/carousel_images_script.js"></script>
+
+</body>
+
+</html>
